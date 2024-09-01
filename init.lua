@@ -193,9 +193,6 @@ vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' }
 vim.keymap.set('n', '<leader>v', ':vsplit<CR>', { noremap = true, silent = true, desc = 'Create vertical split' })
 vim.keymap.set('n', '<leader>h', ':split<CR>', { noremap = true, silent = true, desc = 'Create horizontal split' })
 
-vim.keymap.set('n', '<leader>v', ':vsplit<CR>', { noremap = true, silent = true, desc = 'Create vertical split' })
-vim.keymap.set('n', '<leader>h', ':split<CR>', { noremap = true, silent = true, desc = 'Create horizontal split' })
-
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
 
