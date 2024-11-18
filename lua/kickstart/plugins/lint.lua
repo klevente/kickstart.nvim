@@ -12,7 +12,6 @@ return {
         typescript = { 'eslint' },
         javascriptreact = { 'eslint' },
         typescriptreact = { 'eslint' },
-        rust = { 'clippy' },
       }
 
       -- To allow other plugins to add linters to require('lint').linters_by_ft,
