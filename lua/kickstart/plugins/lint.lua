@@ -8,10 +8,10 @@ return {
       lint.linters_by_ft = {
         markdown = { 'markdownlint' },
         json = { 'jsonlint' },
-        javascript = { 'eslint' },
-        typescript = { 'eslint' },
-        javascriptreact = { 'eslint' },
-        typescriptreact = { 'eslint' },
+        -- javascript = { 'eslint' },
+        -- typescript = { 'eslint' },
+        -- javascriptreact = { 'eslint' },
+        -- typescriptreact = { 'eslint' },
       }
 
       -- To allow other plugins to add linters to require('lint').linters_by_ft,
